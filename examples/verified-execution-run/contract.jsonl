@@ -1,0 +1,5 @@
+{"id": "A1", "title": "auth: 401 on missing token", "ref": "spec §2.1", "dod": "GET /me without token → 401 {error:'unauthorized'}", "dodHash": "e1168f55f643", "at": "2026-06-27T14:51:18"}
+{"id": "A2", "title": "pagination: page size cap", "ref": "spec §3.4", "dod": "GET /items?limit=9999 → returns at most 100", "dodHash": "9bbda3b8e0f9", "at": "2026-06-27T14:51:18"}
+{"id": "A3", "title": "idempotency: repeated POST", "ref": "spec §4.2", "dod": "POST /charge twice w/ same key → one charge", "dodHash": "847ca167c46f", "at": "2026-06-27T14:51:18"}
+{"id": "A4", "title": "error shape: 422 body", "ref": "spec §2.7", "dod": "POST /items bad body → 422 {error,fields[]}", "dodHash": "1285a0db39e3", "at": "2026-06-27T14:51:18"}
+{"id": "A4", "title": "error shape: 422 body", "ref": "spec §2.7", "dod": "POST /items bad body → 422 {error,fields[],traceId}", "dodHash": "737b8c42111b", "at": "2026-06-27T14:51:19"}

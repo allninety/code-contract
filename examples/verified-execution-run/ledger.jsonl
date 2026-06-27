@@ -1,0 +1,7 @@
+{"item": "A1", "event": "claim", "what": "auth.py:40 reject when no bearer", "by": "worker", "at": "2026-06-27T14:51:18"}
+{"item": "A1", "event": "verdict", "verdict": "PASS", "evidence": "curl without token → 401 {error:unauthorized}; matches spec", "by": "verifier", "dodTampered": false, "selfCertified": false, "dodHashAtVerdict": "e1168f55f643", "at": "2026-06-27T14:51:18"}
+{"item": "A2", "event": "claim", "what": "list.py:88 added limit param", "by": "worker", "at": "2026-06-27T14:51:18"}
+{"item": "A2", "event": "verdict", "verdict": "FAIL", "evidence": "limit=9999 returned 9999 rows — cap not enforced", "by": "verifier", "dodTampered": false, "selfCertified": false, "dodHashAtVerdict": "9bbda3b8e0f9", "at": "2026-06-27T14:51:18"}
+{"item": "A3", "event": "claim", "what": "charge.py:120 dedupe by idem key", "by": "worker", "at": "2026-06-27T14:51:18"}
+{"item": "A4", "event": "claim", "what": "errors.py:55 shape 422", "by": "worker", "at": "2026-06-27T14:51:19"}
+{"item": "A4", "event": "verdict", "verdict": "PASS", "evidence": "422 body had {error,fields}; matches", "by": "verifier", "dodTampered": false, "selfCertified": false, "dodHashAtVerdict": "1285a0db39e3", "at": "2026-06-27T14:51:19"}

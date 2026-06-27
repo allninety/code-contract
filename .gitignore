@@ -1,0 +1,15 @@
+# OS / editor cruft
+.DS_Store
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+
+# verified-execution runtime ledger (the default dir; examples/ use named dirs and ARE committed)
+.harness/
+
+# agent/editor local dirs (don't ship)
+.claude/
+.codex/
+*.local

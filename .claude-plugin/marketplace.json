@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "code-contract",
+  "description": "Keep a rewrite/migration honest: freeze an owner-to-code product contract, audit parity against it, and gate fixes with independent verification — three skills on one stable atom-ID spine.",
+  "owner": {
+    "name": "allninety"
+  },
+  "plugins": [
+    {
+      "name": "code-contract",
+      "description": "Three composing Claude Code skills — product-contract (freeze the spec), parity-audit (find gaps with file-line evidence), verified-execution (close them behind an independent gate) — sharing one stable atom-ID.",
+      "author": {
+        "name": "allninety"
+      },
+      "category": "workflow",
+      "source": "./plugins/code-contract",
+      "homepage": "https://github.com/allninety/code-contract"
+    }
+  ]
+}

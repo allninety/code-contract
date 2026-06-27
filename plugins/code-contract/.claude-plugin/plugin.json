@@ -1,0 +1,8 @@
+{
+  "name": "code-contract",
+  "version": "0.1.0",
+  "description": "Freeze an owner-to-code product contract (product-contract), audit a target's parity against it with evidence (parity-audit), and close the gaps behind an independent, un-fudgeable gate (verified-execution) — all keyed to one stable atom-ID.",
+  "author": {
+    "name": "allninety"
+  }
+}
