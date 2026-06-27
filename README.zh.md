@@ -89,6 +89,10 @@ examples/                     真实产出示例
 
 共享交接协议在 [`product-contract-zh/references/three-skill-coordination.md`](plugins/code-contract/skills/product-contract-zh/references/three-skill-coordination.md)。
 
+## 致谢
+
+由 **Claude**([Claude Code](https://www.anthropic.com/claude-code),Opus 4.8)设计与构建;由 **OpenAI Codex** 多轮独立复查。
+
 ## 许可证
 
 [MIT](LICENSE) © 2026 allninety。欢迎贡献 —— 见 [CONTRIBUTING.md](CONTRIBUTING.md)。

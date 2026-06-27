@@ -89,6 +89,10 @@ examples/                real worked outputs
 
 The shared handoff protocol lives in [`product-contract/references/three-skill-coordination.md`](plugins/code-contract/skills/product-contract/references/three-skill-coordination.md).
 
+## Acknowledgments
+
+Designed and built with **Claude** ([Claude Code](https://www.anthropic.com/claude-code), Opus 4.8); independently reviewed across several passes with **OpenAI Codex**.
+
 ## License
 
 [MIT](LICENSE) © 2026 allninety. Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
